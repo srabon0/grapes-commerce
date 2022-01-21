@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;500;700&display=swap');
+
+body{
+    font-family: 'Martel', serif;
+    background-color: #FFFBF0;
+}
+header{
+    height: 80px;
+}
+
+.top-title{
+    color: #FABE4C;
+    font-weight: 400;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+ul li .nav-item .nav-link{
+    color: black;
+}
+.top-banner{
+    width: 100%;
+    ;
+}
+
+.square{
+    width: 275px;
+    height: 275px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #F1F1F1;
+}
+
+.price{
+    color: #FABE4C;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.women-section{
+    background-color: #FFFFFF;
+}
+.section-header{
+    color: #363958;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+.jacket-banner{
+    background-color: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+    .preview {
+      order:2;
+    }
+    .preview-img{
+        order:1;
+    }
+  }
